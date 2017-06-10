@@ -15,10 +15,10 @@ var get = function(barcode, callback) {
     });
 
 }
-var gets = function(barcode, callback) {
+var gets = function(barcodes, callback) {
+    var data = JSON.parse(barcodes);
     trackService.init(function(err, serv) {
-
-        serv.getItems(barcodes, function(err, result) {
+        serv.getItems(data, function(err, result) {
             if (err) {
                 return console.log(err);
             }

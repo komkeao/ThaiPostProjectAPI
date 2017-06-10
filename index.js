@@ -13,6 +13,7 @@ app.post('/getItem', function(req, res) {
 
 
 app.post('/getItems', function(req, res) {
+    console.log(req.query.id)
     soap.gets(req.query.id, function(data) {
         res.json(data.Items);
     });
