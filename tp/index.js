@@ -15,4 +15,18 @@ var get = function(barcode, callback) {
     });
 
 }
+var gets = function(barcode, callback) {
+    trackService.init(function(err, serv) {
+
+        serv.getItems(barcodes, function(err, result) {
+            if (err) {
+                return console.log(err);
+            }
+
+            callback(result.ItemsData)
+        });
+    });
+
+}
+exports.gets = gets;
 exports.get = get;
