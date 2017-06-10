@@ -1,0 +1,66 @@
+{
+  "name": "thailand-post",
+  "description": "an unofficial Node SDK for Thailand Post that consumes the official API",
+  "version": "2.1.0",
+  "author": {
+    "name": "Punnawut Khowkittipaiboon",
+    "email": "me@itskaynine.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsKaynine/thailand-post.git"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
+    "soap": "0.9.x"
+  },
+  "main": "./index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.12.x"
+  },
+  "keywords": [
+    "thailand-post",
+    "thailand",
+    "thai",
+    "ems",
+    "api",
+    "sdk"
+  ],
+  "license": "MIT",
+  "gitHead": "80c7cdc549b5e730f7edf43d09626b34825409bc",
+  "bugs": {
+    "url": "https://github.com/itsKaynine/thailand-post/issues"
+  },
+  "homepage": "https://github.com/itsKaynine/thailand-post#readme",
+  "_id": "thailand-post@2.1.0",
+  "scripts": {},
+  "_shasum": "96856f60e385483d71caf764723a1ce4f06e6c11",
+  "_from": "thailand-post@latest",
+  "_npmVersion": "2.15.5",
+  "_nodeVersion": "4.4.5",
+  "_npmUser": {
+    "name": "itskaynine",
+    "email": "me@itskaynine.com"
+  },
+  "dist": {
+    "shasum": "96856f60e385483d71caf764723a1ce4f06e6c11",
+    "tarball": "https://registry.npmjs.org/thailand-post/-/thailand-post-2.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "itskaynine",
+      "email": "me@itskaynine.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/thailand-post-2.1.0.tgz_1484142588712_0.5761195041704923"
+  },
+  "_resolved": "https://registry.npmjs.org/thailand-post/-/thailand-post-2.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
